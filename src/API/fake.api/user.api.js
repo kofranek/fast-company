@@ -117,3 +117,10 @@ const users = [
 export function fetchAll() {
     return users
 }
+ export function fetchProfessions(){
+     return professions
+ }
+
+ export function fetchQualities () {
+     return qualities
+ }

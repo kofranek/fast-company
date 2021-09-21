@@ -1,4 +1,4 @@
-npx create-react-app project-name --use-npm --no-optional
+npx create-react-app fast-company --use-npm --no-optional
 
 
 npm i bootstrap@5.1.0
