@@ -18,7 +18,9 @@ const Usrs = () => {
     console.log('delete item index=', indx)
 
     console.log('users.length before deletion', users.length, 'users=', users) //12
-    setUsers(users.splice(indx, 1)) //not working - after deletion bad rendering
+    // setUsers(users.splice(indx, 1)) //not working - after deletion bad rendering
+
+    setUsers(users.filter(users => users._id !== indx))
     console.log(
       'user.length after deletions deletion',
       users.length,
@@ -39,7 +41,7 @@ const Usrs = () => {
           <td>
             <button
               className={'btn btn-danger'}
-              onClick={() => handleDelete(index)}
+              onClick={() => handleDelete(row._id)}
             >
               delete
             </button>
