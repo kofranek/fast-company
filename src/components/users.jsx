@@ -15,18 +15,7 @@ const Usrs = () => {
   }
 
   function handleDelete (indx) {
-    console.log('delete item index=', indx)
-
-    console.log('users.length before deletion', users.length, 'users=', users) //12
-    // setUsers(users.splice(indx, 1)) //not working - after deletion bad rendering
-
     setUsers(users.filter(users => users._id !== indx))
-    console.log(
-      'user.length after deletions deletion',
-      users.length,
-      'users=',
-      users
-    ) //11
   }
 
   const rowRender = () => {
@@ -70,10 +59,7 @@ const Usrs = () => {
     )
   }
 
-  console.log('users.length=', users.length, 'users=', users)
-
-  //console.log( api.users.fetchProfessions())
-  //console.log( api.users.fetchQualities())
+  // console.log('users.length=', users.length, 'users=', users)
   return (
     <>
       {russianPhrasesRender(users.length)}
