@@ -1,0 +1,27 @@
+Index: totes.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/totes.txt b/totes.txt
+--- a/totes.txt	(revision 861129d7f1faec925088f377573f6eeebec157df)
++++ b/totes.txt	(date 1632076179566)
+@@ -1,0 +1,18 @@
++npx create-react-app fast-company --use-npm --no-optional
++
++
++npm i bootstrap@5.1.0
++
++odstranit
++App.css
++logo.svg
++App.test.js
++App.js
++
++vytvoříme složku
++src.components
++a v ní  src.components.users.jsx
++
++imr
++
++sfc
