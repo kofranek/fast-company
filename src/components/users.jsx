@@ -23,7 +23,12 @@ const Usrs = () => {
       return (
         <tr key={row._id}>
           <td>{row.name}</td>
-          <td>{row.qualities[0].name}</td>
+          <td>{row.qualities
+            .map(el=>
+                   <span
+                     className={'badge m-1 bg-'+el.color}
+                     key={el._id}
+                   >{el.name}</span>)}</td>
           <td>{row.profession.name}</td>
           <td>{row.completedMeetings}</td>
           <td>{row.rate} / 5</td>
