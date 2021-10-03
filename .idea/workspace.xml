@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48b50080-8120-46f4-adc0-50bc8f93e838" name="Changes" comment="error commit &#10;Я не знаю, почему после удаления одного элемента поле 'users' останется единственным элементом">
+    <list default="true" id="48b50080-8120-46f4-adc0-50bc8f93e838" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bookmark.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/qualitie.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/searchStatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/usersOld.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -87,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632214895308</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final working task #1">
+      <created>1633218491959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633218491959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +144,7 @@
     <MESSAGE value="error commit:&#10;Я не понимаю, почему это вызывает ошибку вызова&#10;onClick = {() =&gt; handleDelete ({users._id})}&#10;&#10;Это похоже на предыдущее видео&#10;onClick = {() =&gt; handleIncrement ({id: 1})}" />
     <MESSAGE value="error commit:&#10;Я не понимаю, почему значение не передается после вызова&#10;onClick = {() =&gt; handleDelete (users._id}" />
     <MESSAGE value="error commit &#10;Я не знаю, почему после удаления одного элемента поле 'users' останется единственным элементом" />
-    <option name="LAST_COMMIT_MESSAGE" value="error commit &#10;Я не знаю, почему после удаления одного элемента поле 'users' останется единственным элементом" />
+    <MESSAGE value="final working task #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final working task #1" />
   </component>
 </project>
