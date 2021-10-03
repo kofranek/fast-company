@@ -4,11 +4,13 @@ import './index.css'
 //import reportWebVitals from './reportWebVitals'
 import 'bootstrap/dist/css/bootstrap.css'
 
-import Usrs from './components/usersOld'
+//import Usrs from './components/usersOld'
+import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Usrs />
+    {/*<Usrs />*/}
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )
