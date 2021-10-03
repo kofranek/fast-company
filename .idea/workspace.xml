@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48b50080-8120-46f4-adc0-50bc8f93e838" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
       <workItem from="1632129602427" duration="25894000" />
       <workItem from="1632229528611" duration="805000" />
       <workItem from="1632230368837" duration="834000" />
-      <workItem from="1633273308673" duration="16377000" />
+      <workItem from="1633273308673" duration="20641000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633222150343</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init code refactoring - working, but not optimized">
+      <created>1633291995658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633291995658</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +155,19 @@
     <MESSAGE value="error commit &#10;Я не знаю, почему после удаления одного элемента поле 'users' останется единственным элементом" />
     <MESSAGE value="final working task #1" />
     <MESSAGE value="init code refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="init code refactoring" />
+    <MESSAGE value="init code refactoring - working, but not optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="init code refactoring - working, but not optimized" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/users.jsx</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
