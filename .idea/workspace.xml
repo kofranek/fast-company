@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48b50080-8120-46f4-adc0-50bc8f93e838" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
       <workItem from="1632129602427" duration="25894000" />
       <workItem from="1632229528611" duration="805000" />
       <workItem from="1632230368837" duration="834000" />
-      <workItem from="1633273308673" duration="20641000" />
+      <workItem from="1633273308673" duration="30481000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633291995658</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="init code refactoring - downgrade working code to Users">
+      <created>1633298010481</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633298010481</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +164,8 @@
     <MESSAGE value="final working task #1" />
     <MESSAGE value="init code refactoring" />
     <MESSAGE value="init code refactoring - working, but not optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="init code refactoring - working, but not optimized" />
+    <MESSAGE value="init code refactoring - downgrade working code to Users" />
+    <option name="LAST_COMMIT_MESSAGE" value="init code refactoring - downgrade working code to Users" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

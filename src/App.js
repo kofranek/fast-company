@@ -12,10 +12,9 @@ import api from './API'
 const App = () => {
   const [users, setUsers] = useState(initUsers())
 
-
-  function initUsers(){
-    const usrs=api.users.fetchAll()
-    const newUsrs=usrs.map(el=>({...el, selected:false}))
+  function initUsers () {
+    const usrs = api.users.fetchAll()
+    const newUsrs = usrs.map(el => ({ ...el, selected: false }))
     //console.log('newUsrs',newUsrs)
     return usrs
   }
@@ -40,9 +39,14 @@ const App = () => {
     setUsers(users.filter(user => user._id !== indx))
   }
 
-  function handleSelected (index) {
-    users[index].selected=!users[index].selected
-    setUsers(users.filter(user=>true))
+  function handleSelected (id) {
+    users.forEach(el=>{
+      if (el._id===id) {
+        el.selected=!el.selected
+      }
+    })
+    //users[index].selected = !users[index].selected
+    setUsers(users.filter(user => true))
   }
 
   function iconSelected (selected) {
@@ -65,7 +69,7 @@ const App = () => {
   }
 
   const rowRender = () => {
-    return users.map((row, index) => {
+    return users.map((row) => {
       return (
         <tr key={ row._id }>
           <td>{ row.name }</td>
@@ -79,7 +83,7 @@ const App = () => {
           <td>{ row.completedMeetings }</td>
           <td>{ row.rate } / 5</td>
           <td>
-            <a href="#" onClick={ () => handleSelected(index) }>
+            <a href="#" onClick={ () => handleSelected(row._id) }>
               { iconSelected(row.selected) }
             </a>
           </td>
@@ -92,6 +96,7 @@ const App = () => {
             </button>
           </td>
         </tr>
+
       )
     })
   }

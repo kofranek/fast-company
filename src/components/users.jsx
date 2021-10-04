@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import User from './user'
+//import User from './user'
 import api from '../API'
 
 // const Users = ({ users, ...rest }) => {
@@ -33,8 +33,13 @@ const Users = () => {
     setUsers(users.filter(user => user._id !== indx))
   }
 
-  function handleSelected (index) {
-    users[index].selected = !users[index].selected
+  function handleSelected (id) {
+    users.forEach(el=>{
+      if (el._id===id) {
+        el.selected=!el.selected
+      }
+    })
+    //users[index].selected = !users[index].selected
     setUsers(users.filter(user => true))
   }
 
@@ -58,7 +63,7 @@ const Users = () => {
   }
 
   const rowRender = () => {
-    return users.map((row, index) => {
+    return users.map((row) => {
       return (
         <tr key={ row._id }>
           <td>{ row.name }</td>
@@ -72,7 +77,7 @@ const Users = () => {
           <td>{ row.completedMeetings }</td>
           <td>{ row.rate } / 5</td>
           <td>
-            <a href="#" onClick={ () => handleSelected(index) }>
+            <a href="#" onClick={ () => handleSelected(row._id) }>
               { iconSelected(row.selected) }
             </a>
           </td>
@@ -85,6 +90,7 @@ const Users = () => {
             </button>
           </td>
         </tr>
+        
       )
     })
   }
