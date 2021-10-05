@@ -48,8 +48,9 @@ const User = (props) => {
       <td>
         <button
           className={ 'btn btn-danger' }
-          onClick={()=>console.log('item id ',props._id,' with name ',props.name,' will be deleted')}
+          //onClick={()=>console.log('item id ',props._id,' with name ',props.name,' will be deleted')}
           // onClick={ () => props.handleDelete(props._id) }
+          onClick={ () => props.onDelete(props._id) }
         >
           delete
         </button>

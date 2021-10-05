@@ -69,7 +69,7 @@ const Users = () => {
             profession={ row.profession }
             completedMeetings={ row.completeMeetings }
             rate={ row.rate }
-            onDelete={ row.onDelete }
+            onDelete={ handleDelete }
             bookmark={ row.bookmarks }
             onToggleBookMark={ row.onToggleBookMark }
           />
