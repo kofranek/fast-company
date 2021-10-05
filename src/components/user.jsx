@@ -25,13 +25,13 @@ const User = (props) => {
     <tr>
       <td>{ props.name }</td>
       <td>
-        {props.qualities[0].name}
-        {/*{ props.qualities*/}
-        {/*.map(el =>*/}
-        {/*       <span*/}
-        {/*         className={ 'badge m-1 bg-' + el.color }*/}
-        {/*         key={ el._id }*/}
-        {/*       >{ el.name }</span>) }*/}
+        {/*{props.qualities[0].name}*/}
+        { props.qualities
+        .map(el =>
+               <span
+                 className={ 'badge m-1 bg-' + el.color }
+                 key={ el._id }
+               >{ el.name }</span>) }
       </td>
       <td>{ props.profession.name }</td>
       <td>{ props.completedMeetings }</td>
