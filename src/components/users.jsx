@@ -110,7 +110,12 @@ const Users = () => {
           <th scope="col"></th>
         </tr>
         </thead>
-        <tbody>{ rowRender() }</tbody>
+        {/*<tbody>{ rowRender() }</tbody>*/}
+        <tbody>
+        {users.map((row)=>(
+          <user />
+        ))}
+        </tbody>
       </table>
     )
   }
