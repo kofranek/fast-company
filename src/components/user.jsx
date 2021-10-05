@@ -1,16 +1,15 @@
 import React from 'react';
-
+import Qualitie from './qualitie'
 const User = (props) => {
 
   return (
     <tr key={ row._id }>
       <td>{ props.name }</td>
       <td>{ props.qualities
-        .map(el =>
-               <span
-                 className={ 'badge m-1 bg-' + el.color }
-                 key={ el._id }
-               >{ el.name }</span>) }</td>
+        .map(el => (
+          <Qualities />
+          )}
+      </td>
       <td>{ props.profession.name }</td>
       <td>{ props.completedMeetings }</td>
       <td>{ row.rate } / 5</td>
