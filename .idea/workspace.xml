@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48b50080-8120-46f4-adc0-50bc8f93e838" name="Changes" comment="">
+    <list default="true" id="48b50080-8120-46f4-adc0-50bc8f93e838" name="Changes" comment="not working">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_09_2021_22_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_09_2021_22_34__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/qualitie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/qualitie.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/user.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <workItem from="1632229528611" duration="805000" />
       <workItem from="1632230368837" duration="834000" />
       <workItem from="1633273308673" duration="31550000" />
-      <workItem from="1633359710660" duration="3684000" />
+      <workItem from="1633359710660" duration="2368000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -127,14 +129,7 @@
       <option name="project" value="LOCAL" />
       <updated>1633308099791</updated>
     </task>
-    <task id="LOCAL-00011" summary="code refactoring - first step - table row to the user component">
-      <created>1633404798323</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1633404798323</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +151,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -180,8 +175,7 @@
     <MESSAGE value="init code refactoring - working, but not optimized" />
     <MESSAGE value="init code refactoring - downgrade working code to Users" />
     <MESSAGE value="init code refactoring - upgrade working code to App" />
-    <MESSAGE value="code refactoring - first step - table row to the user component" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refactoring - first step - table row to the user component" />
+    <option name="LAST_COMMIT_MESSAGE" value="init code refactoring - upgrade working code to App" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,7 +10,7 @@ import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Users />
     {/*<Users />*/}
   </React.StrictMode>,
   document.getElementById('root')
