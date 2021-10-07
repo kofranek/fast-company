@@ -8,9 +8,9 @@ const Users = () => {
 
   function initUsers () {
     const usrs = api.users.fetchAll()
-    const newUsrs = usrs.map(el => ({ ...el, selected: false }))
+    const newUsrs = usrs.map(el => ({ ...el, bookmark: false }))
     //console.log('newUsrs',newUsrs)
-    return usrs
+    return newUsrs
   }
 
   function initBookmarks () {
@@ -33,10 +33,11 @@ const Users = () => {
     setUsers(users.filter(user => user._id !== indx))
   }
 
-  function handleSelected (id) {
+  function handleBookmark (id) {
+    console.log('handleBookmark id=', id)
     users.forEach(el => {
       if (el._id === id) {
-        el.selected = !el.selected
+        el.bookmark = !el.bookmark
       }
     })
     //users[index].selected = !users[index].selected
@@ -62,16 +63,17 @@ const Users = () => {
         <tbody>
         { users.map((row) => (
           <User
-            key={row._id}
+            key={ row._id }
             _id={ row._id }
             name={ row.name }
             qualities={ row.qualities }
             profession={ row.profession }
-            completedMeetings={ row.completeMeetings }
+            completedMeetings={ row.completedMeetings }
             rate={ row.rate }
+            bookmark={ row.bookmark }
             onDelete={ handleDelete }
-            bookmark={ row.bookmarks }
-            onToggleBookMark={ row.onToggleBookMark }
+            onToggleBookmark={ handleBookmark }
+
           />
         )) }
         </tbody>

@@ -1,10 +1,10 @@
 import React from 'react';
 
 const User = (props) => {
-
-  function iconSelected (selected) {
-    //console.log('***bookMarks=', bookMarks,'*****')
-    if (selected) {
+  console.log('user props',props)
+  function iconSelected (bookmark) {
+    //console.log('selected=',selected)
+    if (bookmark) {
       return (
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
              className="bi bi-bookmark-fill" viewBox="0 0 16 16">
@@ -13,6 +13,7 @@ const User = (props) => {
         </svg>
       )
     } else return (
+
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bookmark"
            viewBox="0 0 16 16">
         <path
@@ -40,9 +41,10 @@ const User = (props) => {
         <a
           href="#"
           // onClick={ () => props.handleSelected(props._id) }
-          onClick={()=>console.log('item id ',props._id,' with name ',props.name,' will be selected')}
+          //onClick={()=>console.log('item id ',props._id,' with name ',props.name,' will be selected')}
+          onClick = {()=>props.onToggleBookmark(props._id)}
         >
-          { iconSelected(props.selected) }
+          { iconSelected(props.bookmark) }
         </a>
       </td>
       <td>
