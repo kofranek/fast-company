@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))">
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/searchStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <workItem from="1633359710660" duration="2368000" />
       <workItem from="1633565947107" duration="11923000" />
       <workItem from="1633791123956" duration="1193000" />
-      <workItem from="1633805405040" duration="11269000" />
+      <workItem from="1633805405040" duration="11899000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633817050117</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))">
+      <created>1633820527791</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1633820527791</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +215,7 @@
     <MESSAGE value="rename selected into bookmark an onSelected into onToggleBookmark" />
     <MESSAGE value="Почему не срабатывает Click в user:&#10;      &lt;td&gt;&#10;        &lt;BookMark bookmark={ props.bookmark } &#10;                  onClick={ () =&gt; console.log('cliked at props._id', props._id) }&#10;                  //onClick={()=&gt;props.onToggleBookmark(props._id)}&#10;        /&gt;&#10;      &lt;/td&gt;" />
     <MESSAGE value="Users -&gt;User-&gt;(Qualitie, BookMark)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Users -&gt;User-&gt;(Qualitie, BookMark)" />
+    <MESSAGE value="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))" />
   </component>
 </project>

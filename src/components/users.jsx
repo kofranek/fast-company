@@ -14,11 +14,6 @@ const Users = () => {
     return newUsrs
   }
 
-  function initBookmarks () {
-    return users.map((el) => (
-      { _id: el._id, selected: false }
-    ))
-  }
 
   // const russianPhrasesRender = number => {
   //   if (number === 0) {

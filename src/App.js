@@ -5,25 +5,34 @@ import api from './API'
 
 
 function App() {
-  const [users, setUsers] = useState(api.users.fetchAll());
-  const handleDelete = (userId) => {
-    setUsers(users.filter((user) => user._id !== userId));
-  };
-  const handleToggleBookMark = (id) => {
-    setUsers(
-      users.map((user) => {
-        if (user._id === id) {
-          return { ...user, bookmark: !user.bookmark };
+    const [users, setUsers] = useState(initUsers())
+
+    function initUsers () {
+      const usrs = api.users.fetchAll()
+      const newUsrs = usrs.map(el => ({ ...el, bookmark: false }))
+      //console.log('newUsrs',newUsrs)
+      return newUsrs
+    }
+
+    function handleDelete (indx) {
+      setUsers(users.filter(user => user._id !== indx))
+    }
+
+    function handleBookmark (id) {
+      //console.log('handleBookmark id=', id)
+      users.forEach(el => {
+        if (el._id === id) {
+          el.bookmark = !el.bookmark
         }
-        return user;
       })
-    )
-    console.log(id)
-  }
+      //users[index].selected = !users[index].selected
+      setUsers(users.filter(user => true))
+    }
+
+
   return (
     <div>
-      <SearchStatus length={users.length} />
-      <Users onDelete={handleDelete} onToggleBookMark={handleToggleBookMark} users={users} />
+
     </div>
   );
 }
