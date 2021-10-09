@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_09_2021_22_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_09_2021_22_34__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bookmark.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bookmark.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/qualitie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/qualitie.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/user.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,9 @@
       <workItem from="1632230368837" duration="834000" />
       <workItem from="1633273308673" duration="31550000" />
       <workItem from="1633359710660" duration="2368000" />
-      <workItem from="1633565947107" duration="7232000" />
+      <workItem from="1633565947107" duration="11923000" />
+      <workItem from="1633791123956" duration="1193000" />
+      <workItem from="1633805405040" duration="7831000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -142,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633569097197</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Почему не срабатывает Click в user:&#10;      &lt;td&gt;&#10;        &lt;BookMark bookmark={ props.bookmark } &#10;                  onClick={ () =&gt; console.log('cliked at props._id', props._id) }&#10;                  //onClick={()=&gt;props.onToggleBookmark(props._id)}&#10;        /&gt;&#10;      &lt;/td&gt;">
+      <created>1633574928316</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1633574928316</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +202,7 @@
     <MESSAGE value="init code refactoring - upgrade working code to App" />
     <MESSAGE value="implemented onDelete" />
     <MESSAGE value="rename selected into bookmark an onSelected into onToggleBookmark" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename selected into bookmark an onSelected into onToggleBookmark" />
+    <MESSAGE value="Почему не срабатывает Click в user:&#10;      &lt;td&gt;&#10;        &lt;BookMark bookmark={ props.bookmark } &#10;                  onClick={ () =&gt; console.log('cliked at props._id', props._id) }&#10;                  //onClick={()=&gt;props.onToggleBookmark(props._id)}&#10;        /&gt;&#10;      &lt;/td&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Почему не срабатывает Click в user:&#10;      &lt;td&gt;&#10;        &lt;BookMark bookmark={ props.bookmark } &#10;                  onClick={ () =&gt; console.log('cliked at props._id', props._id) }&#10;                  //onClick={()=&gt;props.onToggleBookmark(props._id)}&#10;        /&gt;&#10;      &lt;/td&gt;" />
   </component>
 </project>

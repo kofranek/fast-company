@@ -1,27 +1,25 @@
 import React from 'react';
 import BookMark from './bookmark'
+import Qualitie from './qualitie'
 
 const User = (props) => {
   // console.log('user props', props)
-
   return (
     <tr>
       <td>{ props.name }</td>
       <td>
-        {/*{props.qualities[0].name}*/ }
-        { props.qualities
-          .map(el =>
-                 <span
-                   className={ 'badge m-1 bg-' + el.color }
-                   key={ el._id }
-                 >{ el.name }</span>) }
+        <Qualitie
+          _id={props._id}
+          qualities={props.qualities}
+        />
       </td>
       <td>{ props.profession.name }</td>
       <td>{ props.completedMeetings }</td>
       <td>{ props.rate } / 5</td>
       <td>
         <BookMark bookmark={ props.bookmark }
-                  onClick={ () => console.log('cliked at props._id', props._id) }
+                  onToggleBookmark={ props.onToggleBookmark }
+                  _id={props._id}
                   //onClick={()=>props.onToggleBookmark(props._id)}
         />
       </td>

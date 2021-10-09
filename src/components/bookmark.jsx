@@ -22,7 +22,11 @@ const BookMark = (props) =>{
   }
 
   return (
-    <button>
+    <button
+      onClick = {()=>{
+        props.onToggleBookmark(props._id)
+      }
+      }>
       { iconSelected(props.bookmark) }
     </button>
     )

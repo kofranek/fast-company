@@ -34,7 +34,7 @@ const Users = () => {
   }
 
   function handleBookmark (id) {
-    console.log('handleBookmark id=', id)
+    //console.log('handleBookmark id=', id)
     users.forEach(el => {
       if (el._id === id) {
         el.bookmark = !el.bookmark
