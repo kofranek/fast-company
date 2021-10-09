@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import User from './user'
 import api from '../API'
+import SearchStatus from './searchStatus'
 
 // const Users = ({ users, ...rest }) => {
 const Users = () => {
@@ -19,15 +20,15 @@ const Users = () => {
     ))
   }
 
-  const russianPhrasesRender = number => {
-    if (number === 0) {
-      return <span className={ 'badge bg-danger' }>Никто с тобой не тусанет</span>
-    }
-    const variableStringPart =
-      number === 1 || number > 4 ? 'человек тусанет' : 'человека тусанут'
-    const russianPhrase = number + ' ' + variableStringPart + ' с тобой сегодня'
-    return <span className={ 'badge bg-primary' }> { russianPhrase } </span>
-  }
+  // const russianPhrasesRender = number => {
+  //   if (number === 0) {
+  //     return <span className={ 'badge bg-danger' }>Никто с тобой не тусанет</span>
+  //   }
+  //   const variableStringPart =
+  //     number === 1 || number > 4 ? 'человек тусанет' : 'человека тусанут'
+  //   const russianPhrase = number + ' ' + variableStringPart + ' с тобой сегодня'
+  //   return <span className={ 'badge bg-primary' }> { russianPhrase } </span>
+  // }
 
   function handleDelete (indx) {
     setUsers(users.filter(user => user._id !== indx))
@@ -84,7 +85,10 @@ const Users = () => {
   //console.log('users.length=', users.length, 'users=', users)
   return (
     <>
-      { russianPhrasesRender(users.length) }
+      <SearchStatus
+           length = {users.length}
+      />
+      {/*{ russianPhrasesRender(users.length) }*/}
       { tableRender() }
     </>
   )
