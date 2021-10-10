@@ -20,14 +20,11 @@ const User = (props) => {
         <BookMark bookmark={ props.bookmark }
                   onToggleBookmark={ props.onToggleBookmark }
                   _id={props._id}
-                  //onClick={()=>props.onToggleBookmark(props._id)}
         />
       </td>
       <td>
         <button
           className={ 'btn btn-danger' }
-          //onClick={()=>console.log('item id ',props._id,' with name ',props.name,' will be deleted')}
-          // onClick={ () => props.handleDelete(props._id) }
           onClick={ () => props.onDelete(props._id) }
         >
           delete

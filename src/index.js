@@ -4,14 +4,11 @@ import './index.css'
 
 import 'bootstrap/dist/css/bootstrap.css'
 
-import Users from './components/users'
-//import User from './components/user'
 import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Users />
-    {/*<Users />*/}
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )
