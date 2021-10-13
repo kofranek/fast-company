@@ -39,7 +39,7 @@ const Users = ({ users, ...rest }) => {
           </tbody>
         </table>
         <Pagination
-          itemCount = {count}
+          itemsCount = {count}
           pageSize = {pageSize}
           onPageChange = {handlePage}
 
