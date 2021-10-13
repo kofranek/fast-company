@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Pagination from './pagination'
 import User from './user'
 
@@ -6,8 +6,10 @@ const Users = ({ users, ...rest }) => {
   console.log('Users rest=', rest)
   const count = users.length
   const pageSize = 4
-  const handlePage = (pageIndex) =>{
+  const [currentPage, setCurrentPage]=useState(1)
+  const handlePageChange = (pageIndex) =>{
     console.log('page:', pageIndex)
+    setCurrentPage(pageIndex)
   }
   function tableRender () {
     if (count === 0) return
@@ -41,7 +43,8 @@ const Users = ({ users, ...rest }) => {
         <Pagination
           itemsCount = {count}
           pageSize = {pageSize}
-          onPageChange = {handlePage}
+          currentPage ={currentPage}
+          onPageChange = {handlePageChange}
 
         />
       </>

@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagination.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633824993670</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Displaying pagination">
+      <created>1634163654120</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1634163654120</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +243,7 @@
     <MESSAGE value="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))" />
     <MESSAGE value="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))&#10;deleted unused functions" />
     <MESSAGE value="App -&gt; (SearchStatus, &#10;        Users  -&gt;  User -&gt; (Qualitie,&#10;                            BookMark))&#10;                            &#10;using props" />
-    <option name="LAST_COMMIT_MESSAGE" value="App -&gt; (SearchStatus, &#10;        Users  -&gt;  User -&gt; (Qualitie,&#10;                            BookMark))&#10;                            &#10;using props" />
+    <MESSAGE value="Displaying pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Displaying pagination" />
   </component>
 </project>
