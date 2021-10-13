@@ -2,30 +2,40 @@ import React from 'react';
 import BookMark from './bookmark'
 import Qualitie from './qualitie'
 
-const User = (props) => {
-  // console.log('user props', props)
+const User = ({
+                name,
+                qualities,
+                profession,
+                completedMeetings,
+                rate,
+                bookmark,
+                onToggleBookmark,
+                _id,
+                onDelete,
+}) => {
+  //console.log('user props', props)
   return (
     <tr>
-      <td>{ props.name }</td>
+      <td>{ name }</td>
       <td>
         <Qualitie
-          _id={props._id}
-          qualities={props.qualities}
+          _id={_id}
+          qualities={qualities}
         />
       </td>
-      <td>{ props.profession.name }</td>
-      <td>{ props.completedMeetings }</td>
-      <td>{ props.rate } / 5</td>
+      <td>{ profession.name }</td>
+      <td>{ completedMeetings }</td>
+      <td>{ rate } / 5</td>
       <td>
-        <BookMark bookmark={ props.bookmark }
-                  onToggleBookmark={ props.onToggleBookmark }
-                  _id={props._id}
+        <BookMark bookmark={ bookmark }
+                  onToggleBookmark={ onToggleBookmark }
+                  _id={_id}
         />
       </td>
       <td>
         <button
           className={ 'btn btn-danger' }
-          onClick={ () => props.onDelete(props._id) }
+          onClick={ () => onDelete(_id) }
         >
           delete
         </button>

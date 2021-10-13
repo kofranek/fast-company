@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="App -&gt; (SearchStatus, &#10;        Users  -&gt;  User -&gt; (Qualitie,&#10;                            BookMark))&#10;                            &#10;using props">
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bookmark.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bookmark.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/qualitie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/qualitie.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/user.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,9 @@
       <workItem from="1633359710660" duration="2368000" />
       <workItem from="1633565947107" duration="11923000" />
       <workItem from="1633791123956" duration="1193000" />
-      <workItem from="1633805405040" duration="15563000" />
+      <workItem from="1633805405040" duration="21346000" />
+      <workItem from="1634128072734" duration="150000" />
+      <workItem from="1634138931048" duration="1814000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -174,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633821189067</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="App -&gt; (SearchStatus, &#10;        Users  -&gt;  User -&gt; (Qualitie,&#10;                            BookMark))&#10;                            &#10;using props">
+      <created>1633824993670</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1633824993670</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +236,7 @@
     <MESSAGE value="Users -&gt;User-&gt;(Qualitie, BookMark)" />
     <MESSAGE value="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))" />
     <MESSAGE value="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))&#10;deleted unused functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Users -&gt;(SearchStatus, User-&gt;(Qualitie, BookMark))&#10;deleted unused functions" />
+    <MESSAGE value="App -&gt; (SearchStatus, &#10;        Users  -&gt;  User -&gt; (Qualitie,&#10;                            BookMark))&#10;                            &#10;using props" />
+    <option name="LAST_COMMIT_MESSAGE" value="App -&gt; (SearchStatus, &#10;        Users  -&gt;  User -&gt; (Qualitie,&#10;                            BookMark))&#10;                            &#10;using props" />
   </component>
 </project>

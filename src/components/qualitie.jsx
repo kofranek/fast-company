@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Qualitie = (props) => {
+const Qualitie = ({qualities}) => {
   //console.log('Qualitie props', props)
   return (
-    props.qualities
+    qualities
       .map(el =>
              <span
                className={ 'badge m-1 bg-' + el.color }

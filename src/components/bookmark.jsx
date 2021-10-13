@@ -1,6 +1,7 @@
 import React from 'react'
 
-const BookMark = (props) =>{
+const BookMark = ({_id, bookmark, onToggleBookmark}) =>{
+  //console.log('Bookmark props=',props)
   function iconSelected (bookmark) {
     //console.log('selected=',bookmark)
     if (bookmark) {
@@ -24,10 +25,10 @@ const BookMark = (props) =>{
   return (
     <button
       onClick = {()=>{
-        props.onToggleBookmark(props._id)
+        onToggleBookmark(_id)
       }
       }>
-      { iconSelected(props.bookmark) }
+      { iconSelected(bookmark) }
     </button>
     )
 
