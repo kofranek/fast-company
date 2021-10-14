@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const BookMark = ({ _id, bookmark, onToggleBookmark }) => {
   //console.log('Bookmark props=',props)
@@ -33,4 +34,11 @@ const BookMark = ({ _id, bookmark, onToggleBookmark }) => {
   )
 
 }
+
+BookMark.propTypes = {
+  _id: PropTypes.string.isRequired,
+  bookmark: PropTypes.bool.isRequired,
+  onToggleBookmark: PropTypes.func.isRequired,
+}
+
 export default BookMark

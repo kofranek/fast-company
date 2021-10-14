@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import Pagination from './pagination'
 import User from './user'
 import { paginate } from '../utils/paginate'
+import PropTypes from 'prop-types'
 
 const Users = ({ users: allUsers, ...rest }) => {
-  console.log('Users rest=', rest)
+
   const count = allUsers.length
   const pageSize = 4
   const [currentPage, setCurrentPage] = useState(1)
@@ -69,6 +70,10 @@ const Users = ({ users: allUsers, ...rest }) => {
       { tableRender() }
     </>
   )
+}
+
+Users.propTypes = {
+  users: PropTypes.array.isRequired,
 }
 
 export default Users
