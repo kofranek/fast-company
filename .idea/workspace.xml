@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/groupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groupList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
       <workItem from="1634237101464" duration="801000" />
       <workItem from="1634238976987" duration="662000" />
       <workItem from="1634239665320" duration="500000" />
-      <workItem from="1634240745618" duration="2846000" />
+      <workItem from="1634240745618" duration="12099000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -250,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634225662775</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="useEffect">
+      <created>1634243686128</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1634243686128</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +319,8 @@
     <MESSAGE value="propTypes was used" />
     <MESSAGE value=" Interface for filtration component GroupList" />
     <MESSAGE value="Api extension" />
-    <option name="LAST_COMMIT_MESSAGE" value="Api extension" />
+    <MESSAGE value="useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="useEffect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

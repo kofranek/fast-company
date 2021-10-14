@@ -18,13 +18,9 @@ const Users = ({ users: allUsers, ...rest }) => {
   }
 
   useEffect(() => {
-    console.log('from useEffect: send request')
     api.professions.fetchAll()
       .then((data) => setProfessions(data))
   }, [])
-  useEffect(() => {
-    console.log('from useEffect: professions=', professions)
-  }, [professions])
 
   const handleProfessionSelect = (params) => {
     console.log('handelProessionSelect', params)
@@ -40,11 +36,19 @@ const Users = ({ users: allUsers, ...rest }) => {
     }
   }
 
+  console.log('Object.keys(professions)length',Object.keys(professions).length)
+
   function tableRender () {
     if (count === 0) return
     return (
       <>
-        <GroupList items={ professions } onItemSelect={ handleProfessionSelect }/>
+        { Object.keys(professions).length && <GroupList
+          items={ professions }
+          onItemSelect={ handleProfessionSelect }
+        /> }
+
+
+
         <table className={ 'table table-sm' }>
           <thead>
           <tr>
