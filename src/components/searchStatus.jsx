@@ -13,7 +13,6 @@ const SearchStatus = (props) => {
     return <span className={ 'badge bg-primary' }> { russianPhrase } </span>
   }
 
-
   return (
     russianPhrasesRender(props.length)
   )

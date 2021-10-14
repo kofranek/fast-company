@@ -16,3 +16,6 @@ a v ní  src.components.users.jsx
 imr
 
 sfc
+
+
+npx prettier --write .

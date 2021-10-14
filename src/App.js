@@ -28,7 +28,6 @@ function App () {
     setUsers(users.filter(user => true))
   }
 
-
   return (
     <div>
       <SearchStatus

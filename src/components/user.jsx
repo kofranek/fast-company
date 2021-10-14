@@ -2,8 +2,6 @@ import React from 'react';
 import BookMark from './bookmark'
 import Qualitie from './qualitie'
 
-
-
 const User = ({
                 name,
                 qualities,
@@ -14,15 +12,15 @@ const User = ({
                 onToggleBookmark,
                 _id,
                 onDelete,
-}) => {
+              }) => {
   //console.log('user props', props)
   return (
     <tr>
       <td>{ name }</td>
       <td>
         <Qualitie
-          _id={_id}
-          qualities={qualities}
+          _id={ _id }
+          qualities={ qualities }
         />
       </td>
       <td>{ profession.name }</td>
@@ -31,7 +29,7 @@ const User = ({
       <td>
         <BookMark bookmark={ bookmark }
                   onToggleBookmark={ onToggleBookmark }
-                  _id={_id}
+                  _id={ _id }
         />
       </td>
       <td>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Qualitie = ({qualities}) => {
+const Qualitie = ({ qualities }) => {
   //console.log('Qualitie props', props)
   return (
     qualities

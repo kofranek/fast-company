@@ -3,7 +3,7 @@ import Pagination from './pagination'
 import User from './user'
 import { paginate } from '../utils/paginate'
 
-const Users = ({ users:allUsers, ...rest }) => {
+const Users = ({ users: allUsers, ...rest }) => {
   console.log('Users rest=', rest)
   const count = allUsers.length
   const pageSize = 4
@@ -14,14 +14,13 @@ const Users = ({ users:allUsers, ...rest }) => {
   }
   let users = paginate(allUsers, currentPage, pageSize)
 
-  if (users.length===0) {
-    console.log('currentPage=',currentPage)
-    if (currentPage>1) {
-      handlePageChange(currentPage-1)
+  if (users.length === 0) {
+    console.log('currentPage=', currentPage)
+    if (currentPage > 1) {
+      handlePageChange(currentPage - 1)
       users = paginate(allUsers, currentPage, pageSize)
     }
   }
-
 
   function tableRender () {
     if (count === 0) return

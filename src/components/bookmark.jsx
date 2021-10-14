@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BookMark = ({_id, bookmark, onToggleBookmark}) =>{
+const BookMark = ({ _id, bookmark, onToggleBookmark }) => {
   //console.log('Bookmark props=',props)
   function iconSelected (bookmark) {
     //console.log('selected=',bookmark)
@@ -24,13 +24,13 @@ const BookMark = ({_id, bookmark, onToggleBookmark}) =>{
 
   return (
     <button
-      onClick = {()=>{
+      onClick={ () => {
         onToggleBookmark(_id)
       }
       }>
       { iconSelected(bookmark) }
     </button>
-    )
+  )
 
 }
 export default BookMark
