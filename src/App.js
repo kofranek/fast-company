@@ -25,7 +25,7 @@ function App () {
       }
     })
     //users[index].selected = !users[index].selected
-    //setUsers(users.filter(user => true))
+    setUsers(users.filter(() =>  true))
   }
 
   return (
