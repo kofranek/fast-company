@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/fake.api/user.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/user.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +28,16 @@
       <filtered-out-file-type name="REMOTE_BRANCH" />
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+      <filtered-out-file-type name="COMMIT_BY_HASH" />
     </file-type-list>
   </component>
   <component name="ProjectId" id="1yNDiCXeBFseNbppYEdZ5LMbpcv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -48,7 +48,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,6 +72,15 @@
       <workItem from="1634138931048" duration="1814000" />
       <workItem from="1634153495921" duration="2742000" />
       <workItem from="1634176896707" duration="4218000" />
+      <workItem from="1634235533100" duration="512000" />
+      <workItem from="1634236072107" duration="204000" />
+      <workItem from="1634236300132" duration="698000" />
+      <workItem from="1634237024362" duration="3000" />
+      <workItem from="1634237045276" duration="26000" />
+      <workItem from="1634237101464" duration="801000" />
+      <workItem from="1634238976987" duration="662000" />
+      <workItem from="1634239665320" duration="500000" />
+      <workItem from="1634240745618" duration="2846000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -234,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634217349521</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Api extension">
+      <created>1634225662775</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1634225662775</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +309,23 @@
     <MESSAGE value="[error] Invalid configuration file `.eslintrc.js`: Unexpected token ','" />
     <MESSAGE value="propTypes was used" />
     <MESSAGE value=" Interface for filtration component GroupList" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Interface for filtration component GroupList" />
+    <MESSAGE value="Api extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="Api extension" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

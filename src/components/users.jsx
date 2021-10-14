@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Pagination from './pagination'
 import User from './user'
 import { paginate } from '../utils/paginate'
@@ -11,15 +11,25 @@ const Users = ({ users: allUsers, ...rest }) => {
   const count = allUsers.length
   const pageSize = 4
   const [currentPage, setCurrentPage] = useState(1)
-  const [professions] = useState(api.professions.fetchAll())
+  const [professions, setProfessions] = useState(api.professions.fetchAll())
   const handlePageChange = (pageIndex) => {
     //console.log('page:', pageIndex)
     setCurrentPage(pageIndex)
   }
+
+  useEffect(() => {
+    console.log('from useEffect: send request')
+    api.professions.fetchAll()
+      .then((data) => setProfessions(data))
+  }, [])
+  useEffect(() => {
+    console.log('from useEffect: professions=', professions)
+  }, [professions])
+
   const handleProfessionSelect = (params) => {
     console.log('handelProessionSelect', params)
   }
-  console.log('users professions=', professions)
+  //console.log('users professions=', professions)
   let users = paginate(allUsers, currentPage, pageSize)
 
   if (users.length === 0) {
