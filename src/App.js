@@ -24,8 +24,7 @@ function App () {
         el.bookmark = !el.bookmark
       }
     })
-    //users[index].selected = !users[index].selected
-    setUsers(users.filter(() =>  true))
+    setUsers(users.filter(() =>  true))  //rerender all users
   }
 
   return (

@@ -3,6 +3,7 @@ import Pagination from './pagination'
 import User from './user'
 import { paginate } from '../utils/paginate'
 import PropTypes from 'prop-types'
+import GroupList from './groupList'
 
 const Users = ({ users: allUsers, ...rest }) => {
 
@@ -10,7 +11,7 @@ const Users = ({ users: allUsers, ...rest }) => {
   const pageSize = 4
   const [currentPage, setCurrentPage] = useState(1)
   const handlePageChange = (pageIndex) => {
-    console.log('page:', pageIndex)
+    //console.log('page:', pageIndex)
     setCurrentPage(pageIndex)
   }
   let users = paginate(allUsers, currentPage, pageSize)
@@ -27,7 +28,7 @@ const Users = ({ users: allUsers, ...rest }) => {
     if (count === 0) return
     return (
       <>
-
+        <GroupList/>
         <table className={ 'table table-sm' }>
           <thead>
           <tr>
