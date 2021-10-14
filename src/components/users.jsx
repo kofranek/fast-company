@@ -36,7 +36,7 @@ const Users = ({ users: allUsers, ...rest }) => {
     }
   }
 
-  console.log('Object.keys(professions)length',Object.keys(professions).length)
+  //console.log('Object.keys(professions).length',Object.keys(professions).length)
 
   function tableRender () {
     if (count === 0) return
@@ -45,6 +45,8 @@ const Users = ({ users: allUsers, ...rest }) => {
         { Object.keys(professions).length && <GroupList
           items={ professions }
           onItemSelect={ handleProfessionSelect }
+          valueProperty = {'_id'}
+          contentProperty = {'name'}
         /> }
 
 
