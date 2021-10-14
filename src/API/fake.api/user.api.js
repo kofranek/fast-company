@@ -1,11 +1,5 @@
-const professions = {
-    doctor: { _id: "67rdca3eeb7f6fgeed471818", name: "Доктор" },
-    waiter: { _id: "67rdca3eeb7f6fgeed471820", name: "Официант" },
-    physics: { _id: "67rdca3eeb7f6fgeed471814", name: "Физик" },
-    engineer: { _id: "67rdca3eeb7f6fgeed471822", name: "Инженер" },
-    actor: { _id: "67rdca3eeb7f6fgeed471824", name: "Актер" },
-    cook: { _id: "67rdca3eeb7f6fgeed471829", name: "Повар" }
-}
+import {professions} from './professions.api'
+
 const qualities = {
     tedious: { _id: "67rdca3eeb7f6fgeed471198", name: "Нудила", color: "primary" },
     strange: { _id: "67rdca3eeb7f6fgeed471100", name: "Странный", color: "secondary" },
@@ -117,10 +111,4 @@ const users = [
 export function fetchAll() {
     return users
 }
- export function fetchProfessions(){
-     return professions
- }
 
- export function fetchQualities () {
-     return qualities
- }

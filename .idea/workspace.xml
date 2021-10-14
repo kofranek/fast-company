@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/groupList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/fake.api/user.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/user.api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -219,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634216503810</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=" Interface for filtration component GroupList">
+      <created>1634217349521</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1634217349521</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +292,7 @@
     <MESSAGE value="Pagination of data" />
     <MESSAGE value="[error] Invalid configuration file `.eslintrc.js`: Unexpected token ','" />
     <MESSAGE value="propTypes was used" />
-    <option name="LAST_COMMIT_MESSAGE" value="propTypes was used" />
+    <MESSAGE value=" Interface for filtration component GroupList" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Interface for filtration component GroupList" />
   </component>
 </project>
