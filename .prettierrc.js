@@ -1,4 +1,4 @@
-module.exports={
-  "trailingComma":"none",
-  "tabWidth:4",
+module.exports = {
+    trailingComma: "none",
+    tabWidth: 4
 }

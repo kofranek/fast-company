@@ -45,8 +45,8 @@ const Users = ({ users: allUsers, ...rest }) => {
         { Object.keys(professions).length && <GroupList
           items={ professions }
           onItemSelect={ handleProfessionSelect }
-          valueProperty = {'_id'}
-          contentProperty = {'name'}
+            // valueProperty = {'_id'}
+            // contentProperty = {'name'}
         /> }
 
 
