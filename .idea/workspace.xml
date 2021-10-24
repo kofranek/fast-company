@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="add clearFilter button">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/groupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groupList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/searchStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Practical task # 1 - init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -317,7 +311,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
