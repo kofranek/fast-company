@@ -12,6 +12,7 @@ const Users = ({users: allUsers, ...rest}) => {
     const pageSize = 4
     const [currentPage, setCurrentPage] = useState(1)
     const [professions, setProfessions] = useState(api.professions.fetchAll())
+    const [selectedProf, setSelectedProf]=useState()
     const handlePageChange = (pageIndex) => {
         setCurrentPage(pageIndex)
     }
@@ -21,8 +22,9 @@ const Users = ({users: allUsers, ...rest}) => {
             .then((data) => setProfessions(data))
     }, [])
 
-    const handleProfessionSelect = (params) => {
-        console.log('handelProessionSelect', params)
+    const handleProfessionSelect = (item) => {
+        setSelectedProf(item)
+        console.log('handelProfessionSelect', item)
     }
     //console.log('users professions=', professions)
 
@@ -43,6 +45,7 @@ const Users = ({users: allUsers, ...rest}) => {
             <>
                 {Object.keys(professions).length && (
                     <GroupList
+                        selectedItem={selectedProf}
                         items={professions}
                         onItemSelect={handleProfessionSelect}
                         // valueProperty = {'_id'}
