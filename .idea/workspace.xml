@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Selection processing">
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Filtering implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635048785059</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Filtering implementation">
+      <created>1635050731701</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1635050731701</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +321,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="error commit:&#10;Я не понимаю, почему значение не передается после вызова&#10;onClick = {() =&gt; handleDelete (users._id}" />
     <MESSAGE value="error commit &#10;Я не знаю, почему после удаления одного элемента поле 'users' останется единственным элементом" />
     <MESSAGE value="final working task #1" />
     <MESSAGE value="init code refactoring" />
@@ -339,7 +345,8 @@
     <MESSAGE value="Displaying items" />
     <MESSAGE value="the paginate function (in utils / paginate.js) is rewritten in vanilla JavaScript" />
     <MESSAGE value="Selection processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selection processing" />
+    <MESSAGE value="Filtering implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filtering implementation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

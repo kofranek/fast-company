@@ -34,7 +34,11 @@ const Users = ({users: allUsers, ...rest}) => {
 
     let users = paginate(filteredUsers, currentPage, pageSize)
 
-    console.log('from users users=',users)
+    const clearFilter = () => {
+        setSelectedProf(undefined)
+    }
+
+    console.log('from users users=', users)
 
     //we must refactoring pages length and pages switching
     if (users.length === 0) { //when the last page is active and we have deleted the last item from it
@@ -50,14 +54,22 @@ const Users = ({users: allUsers, ...rest}) => {
         if (count === 0) return
         return (
             <>
-                {Object.keys(professions).length && (
-                    <GroupList
-                        selectedItem={selectedProf}
-                        items={professions}
-                        onItemSelect={handleProfessionSelect}
-                        // valueProperty = {'_id'}
-                        // contentProperty = {'name'}
-                    />)}
+                {(professions) && (
+                    <>
+                        <GroupList
+                            selectedItem={selectedProf}
+                            items={professions}
+                            onItemSelect={handleProfessionSelect}
+                            // valueProperty = {'_id'}
+                            // contentProperty = {'name'}
+                        />
+                        <button
+                            className="btn btn-secondary mt-2"
+                            onClick={clearFilter}
+                        >Очистить
+                        </button>
+                    </>
+                )}
 
 
                 <table className={'table table-sm'}>
