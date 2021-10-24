@@ -4,6 +4,7 @@ const SearchStatus = (props) => {
 //console.log('SearchStatus', props)
 
     const russianPhrasesRender = number => {
+        //console.log('searchstatut number=',number)
         if (number === 0) {
             return <span className={'badge bg-danger'}>Никто с тобой не тусанет</span>
         }
