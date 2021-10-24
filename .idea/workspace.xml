@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Refactoring">
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="add clearFilter button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/fake.api/user.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/user.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/groupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groupList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/searchStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,14 +295,7 @@
       <option name="project" value="LOCAL" />
       <updated>1635052968854</updated>
     </task>
-    <task id="LOCAL-00031" summary="Refactoring">
-      <created>1635093320063</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1635093320063</updated>
-    </task>
-    <option name="localTasksCounter" value="32" />
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +331,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="final working task #1" />
     <MESSAGE value="init code refactoring" />
     <MESSAGE value="init code refactoring - working, but not optimized" />
     <MESSAGE value="init code refactoring - downgrade working code to Users" />
@@ -361,8 +356,7 @@
     <MESSAGE value="Selection processing" />
     <MESSAGE value="Filtering implementation" />
     <MESSAGE value="add clearFilter button" />
-    <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="add clearFilter button" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
