@@ -12,7 +12,7 @@ const Users = ({users: allUsers, ...rest}) => {
     const pageSize = 4
     const [currentPage, setCurrentPage] = useState(1)
     const [professions, setProfessions] = useState(api.professions.fetchAll())
-    const [selectedProf, setSelectedProf]=useState()
+    const [selectedProf, setSelectedProf] = useState()
     const handlePageChange = (pageIndex) => {
         setCurrentPage(pageIndex)
     }
@@ -28,9 +28,16 @@ const Users = ({users: allUsers, ...rest}) => {
     }
     //console.log('users professions=', professions)
 
+    const filteredUsers = selectedProf
+        ? allUsers.filter(usr => usr.profession === selectedProf)
+        : allUsers
 
-    let users = paginate(allUsers, currentPage, pageSize)
-    if (users.length === 0) {
+    let users = paginate(filteredUsers, currentPage, pageSize)
+
+    console.log('from users users=',users)
+
+    //we must refactoring pages length and pages switching
+    if (users.length === 0) { //when the last page is active and we have deleted the last item from it
         if (currentPage > 1) {
             handlePageChange(currentPage - 1)
             users = paginate(allUsers, currentPage, pageSize)

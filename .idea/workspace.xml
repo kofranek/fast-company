@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="the paginate function (in utils / paginate.js) is rewritten in vanilla JavaScript">
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Selection processing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/groupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groupList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635046326848</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Selection processing">
+      <created>1635048785059</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1635048785059</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +314,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="error commit:&#10;Я не понимаю, почему это вызывает ошибку вызова&#10;onClick = {() =&gt; handleDelete ({users._id})}&#10;&#10;Это похоже на предыдущее видео&#10;onClick = {() =&gt; handleIncrement ({id: 1})}" />
     <MESSAGE value="error commit:&#10;Я не понимаю, почему значение не передается после вызова&#10;onClick = {() =&gt; handleDelete (users._id}" />
     <MESSAGE value="error commit &#10;Я не знаю, почему после удаления одного элемента поле 'users' останется единственным элементом" />
     <MESSAGE value="final working task #1" />
@@ -333,7 +338,8 @@
     <MESSAGE value="useEffect" />
     <MESSAGE value="Displaying items" />
     <MESSAGE value="the paginate function (in utils / paginate.js) is rewritten in vanilla JavaScript" />
-    <option name="LAST_COMMIT_MESSAGE" value="the paginate function (in utils / paginate.js) is rewritten in vanilla JavaScript" />
+    <MESSAGE value="Selection processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selection processing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
