@@ -62,9 +62,9 @@ const Users = ({users: allUsers, ...rest}) => {
 
         return (count > 0) &&
             (
-                <div  className={"d-flex flex-row"}>
+                <div  className={"d-flex"}>
                     {(professions) && (
-                        <div>
+                        <div className={"d-flex flex-column flex-shrink-0 p-3"}>
                             <GroupList
                                 selectedItem={selectedProf}
                                 items={professions}
@@ -80,7 +80,7 @@ const Users = ({users: allUsers, ...rest}) => {
                         </div>
                     )}
 
-                    <table className={'table table-sm'}>
+                    <table className={'table'}>
                         <thead>
                         <tr>
                             <th scope="col">Имя</th>
@@ -113,7 +113,7 @@ const Users = ({users: allUsers, ...rest}) => {
     //console.log('users.length=', users.length, 'users=', users)
     return (
 
-        <div className="d-flex flex-column flex-shrink-0 p-3">
+        <div className="d-flex flex-column">
             <SearchStatus
                 length={count}
             />

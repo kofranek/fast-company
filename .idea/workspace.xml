@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Working - Refactory">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_09_2021_22_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_09_2021_22_34__Changes_.xml" afterDir="false" />
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Promise in user.api.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/fake.api/user.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/user.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +81,7 @@
       <workItem from="1634238976987" duration="662000" />
       <workItem from="1634239665320" duration="500000" />
       <workItem from="1634240745618" duration="12780000" />
+      <workItem from="1635276593583" duration="3889000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -317,10 +315,16 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/practical_task_#1" />
                       </list>
                     </value>
                   </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="27" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="15" />
                 </map>
               </option>
             </State>
