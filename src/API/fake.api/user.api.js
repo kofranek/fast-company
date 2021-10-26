@@ -109,7 +109,17 @@ const users = [
     },
 ]
 
-export function fetchAll() {
-    return users
-}
+// export function fetchAll() {
+//     return users
+// }
 
+const fetchAll = () =>
+    new Promise((resolve) => {
+        window.setTimeout(function () {
+            resolve(users);
+        }, 4000);
+    });
+
+export default {
+    fetchAll
+};
