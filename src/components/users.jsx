@@ -60,74 +60,74 @@ const Users = ({users: allUsers, ...rest}) => {
 
     function tableRender() {
 
-        return (count > 0) &&
-            (
-                <div  className={"d-flex"}>
-                    {(professions) && (
-                        <div className={"d-flex flex-column flex-shrink-0 p-3"}>
-                            <GroupList
-                                selectedItem={selectedProf}
-                                items={professions}
-                                onItemSelect={handleProfessionSelect}
-                                // valueProperty = {'_id'}
-                                // contentProperty = {'name'}
-                            />
-                            <button
-                                className="btn btn-secondary mt-2"
-                                onClick={clearFilter}
-                            >Очистить
-                            </button>
-                        </div>
-                    )}
+        return (
+            <div className={"d-flex"}>
+                {(professions) && (
+                    <div className={"d-flex flex-column flex-shrink-0 p-3"}>
+                        <GroupList
+                            selectedItem={selectedProf}
+                            items={professions}
+                            onItemSelect={handleProfessionSelect}
+                            // valueProperty = {'_id'}
+                            // contentProperty = {'name'}
+                        />
+                        <button
+                            className="btn btn-secondary mt-2"
+                            onClick={clearFilter}
+                        >Очистить
+                        </button>
+                    </div>
+                )}
+                <div className="d-flex flex-column">
+                    <SearchStatus
+                        length={count}
+                    />
+                    {count > 0 && (
+                        <table className={'table'}>
 
-                    <table className={'table'}>
-                        <thead>
-                        <tr>
-                            <th scope="col">Имя</th>
-                            <th scope="col">Качества</th>
-                            <th scope="col">Профессия</th>
-                            <th scope="col">Встретился, раз</th>
-                            <th scope="col">Оценка</th>
-                            <th scope="col">Избранное</th>
-                            <th scope="col"></th>
-                        </tr>
-                        </thead>
-                        {/*<tbody>{ rowRender() }</tbody>*/}
-                        <tbody>
-                        {users.map((row) => (
-                            <User
-                                key={row._id}
-                                {...row}
-                                {...rest}
-                                // onDelete={ onDelete }
-                                // onToggleBookmark={ onToggleBookmark }
-                            />
-                        ))}
-                        </tbody>
-                    </table>
+                            <thead>
+                            <tr>
+                                <th scope="col">Имя</th>
+                                <th scope="col">Качества</th>
+                                <th scope="col">Профессия</th>
+                                <th scope="col">Встретился, раз</th>
+                                <th scope="col">Оценка</th>
+                                <th scope="col">Избранное</th>
+                                <th scope="col"></th>
+                            </tr>
+                            </thead>
+                            {/*<tbody>{ rowRender() }</tbody>*/}
+                            <tbody>
+                            {users.map((row) => (
+                                <User
+                                    key={row._id}
+                                    {...row}
+                                    {...rest}
+                                    // onDelete={ onDelete }
+                                    // onToggleBookmark={ onToggleBookmark }
+                                />
+                            ))}
+                            </tbody>
+                        </table>
+                    )}
+                    <div className={"d-flex justify-content-center"}>
+                        <Pagination
+                            itemsCount={count}
+                            pageSize={pageSize}
+                            currentPage={currentPage}
+                            onPageChange={handlePageChange}
+                        />
+                    </div>
 
                 </div>
-            )
+            </div>
+        )
     }
 
     //console.log('users.length=', users.length, 'users=', users)
     return (
-
-        <div className="d-flex flex-column">
-            <SearchStatus
-                length={count}
-            />
-            <div>
-                {tableRender()}
-            </div>
-            <div className={"d-flex justify-content-center"}>
-                <Pagination
-                    itemsCount={count}
-                    pageSize={pageSize}
-                    currentPage={currentPage}
-                    onPageChange={handlePageChange}
-                />
-            </div>
+        <div>
+            {tableRender()}
         </div>
 
     )
