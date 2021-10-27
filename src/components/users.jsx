@@ -28,9 +28,9 @@ const Users = ({users: allUsers, ...rest}) => {
         setSelectedProf(item)
         //console.log('handelProfessionSelect', item)
     }
-    console.log('users professions=', professions)
-    console.log('users allUsers=', allUsers)
-    console.log('users selectedProf=', selectedProf)
+    // console.log('users professions=', professions)
+    // console.log('users allUsers=', allUsers)
+    // console.log('users selectedProf=', selectedProf)
 
     const filteredUsers = selectedProf
         // ? allUsers.filter(usr => usr.profession.name === selectedProf.name)
