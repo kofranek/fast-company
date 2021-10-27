@@ -41,28 +41,17 @@ const Users = ({users: allUsers, ...rest}) => {
         )
         : allUsers
     const count = filteredUsers.length
-    let users = paginate(filteredUsers, currentPage, pageSize)
-
+    let usersCrop = paginate(filteredUsers, currentPage, pageSize)
     const clearFilter = () => {
         setSelectedProf(undefined)
     }
 
-    //console.log('from users users=', users)
-
-
-    if (users.length === 0) { //when the last page is active and we have deleted the last item from it
+    if (usersCrop.length === 0) { //when the last page is active and we have deleted the last item from it
         if (currentPage > 1) {
             handlePageChange(currentPage - 1)
-            users = paginate(allUsers, currentPage, pageSize)
+            usersCrop = paginate(allUsers, currentPage, pageSize)
         }
     }
-
-    //className={"d-flex"}
-    //className="d-flex flex-column flex-shrink-0 p-3"
-    //classNames="d-flex flex-column"
-    //className={"d-flex justify-content-center"}
-
-    //console.log('Object.keys(professions).length',Object.keys(professions).length)
 
     function tableRender() {
 
@@ -104,7 +93,7 @@ const Users = ({users: allUsers, ...rest}) => {
                             </thead>
                             {/*<tbody>{ rowRender() }</tbody>*/}
                             <tbody>
-                            {users.map((row) => (
+                            {usersCrop.map((row) => (
                                 <User
                                     key={row._id}
                                     {...row}
