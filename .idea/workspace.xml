@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment=" refactoring visual">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/fake.api/user.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/user.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/groupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groupList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="practical task #1 solved" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +79,7 @@
       <workItem from="1634239665320" duration="500000" />
       <workItem from="1634240745618" duration="12780000" />
       <workItem from="1635276593583" duration="5730000" />
-      <workItem from="1635354975121" duration="7671000" />
+      <workItem from="1635354975121" duration="8143000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -304,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635286748998</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="practical task #1 solved">
+      <created>1635372402521</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1635372402522</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +327,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/practical_task_#1" />
+                        <option value="practical_task_#1" />
                       </list>
                     </value>
                   </entry>
@@ -346,7 +347,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init code refactoring" />
     <MESSAGE value="init code refactoring - working, but not optimized" />
     <MESSAGE value="init code refactoring - downgrade working code to Users" />
     <MESSAGE value="init code refactoring - upgrade working code to App" />
@@ -371,7 +371,8 @@
     <MESSAGE value="Filtering implementation" />
     <MESSAGE value="add clearFilter button" />
     <MESSAGE value=" refactoring visual" />
-    <option name="LAST_COMMIT_MESSAGE" value=" refactoring visual" />
+    <MESSAGE value="practical task #1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="practical task #1 solved" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
