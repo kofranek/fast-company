@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="Practical task # 1 - init" />
+    <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment="add clearFilter button">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/groupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groupList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/searchStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +20,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -78,6 +86,8 @@
       <workItem from="1634238976987" duration="662000" />
       <workItem from="1634239665320" duration="500000" />
       <workItem from="1634240745618" duration="12780000" />
+      <workItem from="1635276593583" duration="5730000" />
+      <workItem from="1635354975121" duration="8917000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -289,7 +299,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635052968854</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary=" refactoring visual">
+      <created>1635286748998</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1635286748998</updated>
+    </task>
+    <task id="LOCAL-00032" summary="practical task #1 solved">
+      <created>1635372402521</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1635372402522</updated>
+    </task>
+    <task id="LOCAL-00033" summary="practical task #1 solved">
+      <created>1635372693578</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1635372693578</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +334,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
               <option name="FILTERS">
@@ -311,10 +342,16 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="27" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="15" />
                 </map>
               </option>
             </State>
@@ -325,8 +362,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="final working task #1" />
-    <MESSAGE value="init code refactoring" />
     <MESSAGE value="init code refactoring - working, but not optimized" />
     <MESSAGE value="init code refactoring - downgrade working code to Users" />
     <MESSAGE value="init code refactoring - upgrade working code to App" />
@@ -350,7 +385,9 @@
     <MESSAGE value="Selection processing" />
     <MESSAGE value="Filtering implementation" />
     <MESSAGE value="add clearFilter button" />
-    <option name="LAST_COMMIT_MESSAGE" value="add clearFilter button" />
+    <MESSAGE value=" refactoring visual" />
+    <MESSAGE value="practical task #1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="practical task #1 solved" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
