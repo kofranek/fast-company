@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4f577846-fa25-40ca-8013-b0a20dab922a" name="Changes" comment=" refactoring visual">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/searchStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/professions.api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/fake.api/user.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/fake.api/user.api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/groupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groupList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +85,7 @@
       <workItem from="1634239665320" duration="500000" />
       <workItem from="1634240745618" duration="12780000" />
       <workItem from="1635276593583" duration="5730000" />
+      <workItem from="1635354975121" duration="7671000" />
     </task>
     <task id="LOCAL-00001" summary="restore initial">
       <created>1632083864549</created>
@@ -315,7 +318,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
               <option name="FILTERS">

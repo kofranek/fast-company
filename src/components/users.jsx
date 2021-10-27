@@ -28,11 +28,17 @@ const Users = ({users: allUsers, ...rest}) => {
         setSelectedProf(item)
         //console.log('handelProfessionSelect', item)
     }
-    //console.log('users professions=', professions)
-
+    console.log('users professions=', professions)
+    console.log('users allUsers=', allUsers)
+    console.log('users selectedProf=', selectedProf)
 
     const filteredUsers = selectedProf
-        ? allUsers.filter(usr => usr.profession === selectedProf)
+        // ? allUsers.filter(usr => usr.profession.name === selectedProf.name)
+        ? allUsers.filter(
+            usr =>
+                JSON.stringify(usr.profession) ===
+                JSON.stringify(selectedProf)
+        )
         : allUsers
     const count = filteredUsers.length
     let users = paginate(filteredUsers, currentPage, pageSize)
